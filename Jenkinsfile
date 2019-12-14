@@ -1,7 +1,7 @@
 pipeline {
    agent {
        docker {
-           image "python"
+           image "qaninja/python-wd"
            args "--network=skynet"
        }
    }
@@ -14,7 +14,7 @@ pipeline {
       }
       stage("Tests") {
          steps {
-            sh "robot -d ./results specs/api"
+            sh "robot -d ./results specs"
          }
       }
    }

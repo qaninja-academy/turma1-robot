@@ -5,7 +5,7 @@ Resource    ../elements.robot
 
 *** Variables ***
 ${DEFAULT_URL}          http://ninjaplus-web:5000/login
-${BROWSER}              chrome
+${BROWSER}              headlesschrome
 
 *** Keywords ***
 #### Setup e Teardown
