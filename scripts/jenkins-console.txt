@@ -1,0 +1,1 @@
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "sandbox allow-s; default-src *; style-src * http://* 'unsafe-inline' 'unsafe-eval'; -src 'self' http://* 'unsafe-inline' 'unsafe-eval'");
