@@ -1,0 +1,6 @@
+requests
+pyscopg2
+robotframework
+robotframework-seleniumlibrary
+robotframework-jsonlibrary
+robotframework-requests
