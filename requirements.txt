@@ -1,5 +1,5 @@
 requests
-pyscopg2
+psycopg2
 robotframework
 robotframework-seleniumlibrary
 robotframework-jsonlibrary
