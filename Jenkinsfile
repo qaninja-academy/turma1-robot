@@ -2,9 +2,9 @@ pipeline {
    agent any
 
    stages {
-      stage('Hello') {
+      stage("Tests") {
          steps {
-            echo 'Hello World'
+            sh "robot -d ./results /specs/api"
          }
       }
    }
