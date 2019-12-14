@@ -13,7 +13,8 @@ pipeline {
       }
       stage("Tests") {
          steps {
-            sh "robot -d ./results /specs/api"
+            sh "ls -l"
+            sh "robot -d ./results /specs/api/"
          }
       }
    }
