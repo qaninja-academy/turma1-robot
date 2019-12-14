@@ -16,6 +16,11 @@ pipeline {
          steps {
             sh "robot -d ./results specs"
          }
+         post {
+            always {
+               robot 'results'
+            }
+         }
       }
    }
 }
