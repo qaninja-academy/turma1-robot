@@ -12,7 +12,7 @@ ${BROWSER}              headlesschrome
 Abrir navegador
     Open Browser    ${DEFAULT_URL}     ${BROWSER}
     Set Selenium Implicit Wait  10
-    Maximize Browser Window
+    Set Window Size     1280    800
     
 Fechar navegador
     Capture Page Screenshot
